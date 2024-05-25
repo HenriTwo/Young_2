@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: black;
+}
+
+main{ 
+    display: flex;
+    align-items: column;
+    justify-content: column;
+    background-color: blueviolet;
+    height: 25vh;
+    width: 25vw;
+}
