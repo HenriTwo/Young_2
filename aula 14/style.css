@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #c6de00 0%, #a700ff 100%);
+}
+
+.contain-gerador-senha {
+    background-color: #a86dc9b7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px black;
+    padding: 30px;
+}
+
+.senha {
+    background-color: #d38afd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 30px;
+}
+
+.senha span{
+    padding-left: 10px;
+}
+
+.senha button {
+    padding-right: 15px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.senha:hover button{
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.body-gerador-senha {
+    padding-top: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#tamanho {
+    width: 38px;
+}
+
+label {
+    font-size: 14px;
+    text-transform: capitalize ;
+    cursor: pointer;
+
+}
+
+input {
+    cursor: pointer;
+}
+
+input[type="checkbox"]{
+    accent-color: rgb(184, 48, 184);
+}
+
+.contain-botoes {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.contain-botoes button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(90, 6, 146);
+}
